@@ -19,15 +19,8 @@ index.html    # the entire site: markup, styles and theme toggle
 
 ## Editing
 
-**Add your photo.** The hero currently shows a "QA" monogram placeholder. Drop your
-photo in this folder (e.g. `photo.jpg`) and replace the avatar block in `index.html`:
-
-```html
-<div class="avatar">
-  <img src="photo.jpg" alt="Qasem Alolaywi"
-       style="width:100%;height:100%;object-fit:cover" />
-</div>
-```
+**Replace the photo.** The hero image is `photo.jpg` (640x640, cropped square).
+Swap the file, keeping the same name and a square aspect ratio.
 
 **Add a certification.** Copy any `.mini` block in the Education & Certifications
 section and edit the title and meta line.

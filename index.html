@@ -75,13 +75,7 @@
     background:linear-gradient(145deg, var(--accent-soft), var(--surface-2));
     border:1px solid var(--line); position:relative; overflow:hidden;
   }
-  .avatar .mono{font-size:44px; font-weight:800; letter-spacing:-.03em; color:var(--accent-text)}
-  .avatar .hint{
-    position:absolute; bottom:0; left:0; right:0; padding:5px 6px; text-align:center;
-    font-size:9.5px; font-weight:600; letter-spacing:.04em; text-transform:uppercase;
-    color:var(--faint); background:color-mix(in srgb, var(--surface) 80%, transparent);
-    border-top:1px solid var(--line);
-  }
+  .avatar img{width:100%; height:100%; object-fit:cover; display:block}
   .eyebrow{
     display:inline-flex; align-items:center; gap:7px; font-size:12.5px; font-weight:600;
     color:var(--accent-text); background:var(--accent-soft); border-radius:999px;
@@ -230,9 +224,8 @@
 
 <header>
   <div class="wrap hero">
-    <div class="avatar" title="Replace with your photo">
-      <div class="mono">QA</div>
-      <div class="hint">Photo</div>
+    <div class="avatar">
+      <img src="photo.jpg" alt="Qasem Alolaywi" width="132" height="132" loading="eager" />
     </div>
     <div>
       <div class="eyebrow"><span class="dot"></span> Open to opportunities</div>
