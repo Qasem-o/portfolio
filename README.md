@@ -31,7 +31,7 @@ defined separately; the toggle in the nav persists the choice to `localStorage`.
 
 ## Publishing
 
-The site is static, so it works on GitHub Pages, Netlify, Vercel or any static host.
-For GitHub Pages: Settings → Pages → deploy from `main` / root. Note that Pages on a
-**private** repository requires a paid GitHub plan; make the repo public first if you
-want a free `github.io` URL.
+Live at **https://qasem-o.github.io/portfolio/** via GitHub Pages (deploys from `main` / root).
+Every push to `main` goes live within a minute or two.
+
+The site is plain static files, so it also works on Netlify, Vercel or any other static host.
